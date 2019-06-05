@@ -16,4 +16,7 @@ python3 paraphrase_classifier.py \
     --learning_rate=3e-5 \
     --num_train_epochs=10 \
     --output_dir=results/classify/
+    
+    
+    ## 如果需要语料，可以和我联系
 
