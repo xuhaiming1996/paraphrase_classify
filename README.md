@@ -1,7 +1,8 @@
 ## 简单介绍
 
-这是一个使用bert网络，采用微调方式训练，训练一个复述对判别模型
+这是一个使用bert网络，采用微调方式训练，训练一个复述对判别模型，注意这里我将损失函数该成交叉熵了
 
+### 运行命令
 python3 paraphrase_classifier.py \
     --task_name=classify   \
     --do_train=true   \
